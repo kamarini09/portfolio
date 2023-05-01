@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 50px;
+  background-color: #fff;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #0070f3;
+}

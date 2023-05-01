@@ -1,5 +1,18 @@
+import Nav from './Nav';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
+
 export default function Layout (){
     return(
-        <h2>kalimera</h2>
+        <> 
+        <Nav></Nav>
+        <About></About>
+        <Projects></Projects>
+        <Contact></Contact>
+        <Footer></Footer>
+        </>
+        
     )
 }
