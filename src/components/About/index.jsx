@@ -1,8 +1,14 @@
 import styles from './About.module.css';
+
+
+
+
 export default function About() {
     return (
       <div className={styles.container}>
-        <img src="/profile-picture.jpg" alt="Profile picture" className={styles.picture} />
+        <img src="/me.jpeg" alt="" />
+   
+       
         <div className={styles.text}>
           <h2>Welcome to my portfolio!</h2>
           <p> Hey there! I'm Kama, a multimedia design student from Greece currently

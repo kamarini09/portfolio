@@ -6,12 +6,12 @@ function Nav() {
     <nav className={styles.nav}>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <Link href="/">
+          <Link href="/Projects">
             <div className={styles.link}>Home</div>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="/projects">
+          <Link href="#projects">
             <div className={styles.link}>Projects</div>
           </Link>
         </li>

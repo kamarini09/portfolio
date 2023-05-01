@@ -9,7 +9,7 @@ export default function Layout (){
         <> 
         <Nav></Nav>
         <About></About>
-        <Projects></Projects>
+        <Projects id="projects"></Projects>
         <Contact></Contact>
         <Footer></Footer>
         </>
