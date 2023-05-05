@@ -1,3 +1,9 @@
+:root {
+  --dirty-white: #fcfafb;
+  --blue: #0332b8;
+  --pink: #eb4463;
+}
+
 * {
   margin: 0;
   padding: 0.5rem;
@@ -9,3 +15,15 @@ img {
   height: auto;
   max-width: 300px;
 }
+
+/* body {
+  background-color: var(--dirty-white);
+  color: var(--blue);
+}
+h1 {
+  color: var(--pink);
+}
+button {
+  background-color: var(--blue);
+  color: var(--pink);
+} */

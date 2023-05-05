@@ -9,11 +9,12 @@
 
 .text {
   flex: 1;
+  color: var(--blue);
 }
 
-.h2 {
-  font-size: 24px;
+.h1 {
   margin-bottom: 20px;
+  color: var(--pink);
 }
 
 .p {

@@ -9,9 +9,9 @@ export default function About() {
         <img src="/me.jpeg" alt="" />
    
        
-        <div className={styles.text}>
-          <h2>Welcome to my portfolio!</h2>
-          <p> Hey there! I'm Kama, a multimedia design student from Greece currently
+        <div >
+          <h1 className={styles.h1}>Welcome to my portfolio!</h1>
+          <p className={styles.text}> Hey there! I'm Kama, a multimedia design student from Greece currently
              living in Copenhagen.I'm super passionate about designing and building
              websites. I'm studying Multimedia Design  at KEA, currently in the Fronted 
              Elective. I have already completed a bunch of projects that show off 
