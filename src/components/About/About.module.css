@@ -13,7 +13,7 @@
   flex: 1;
   color: var(--blue);
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: bold;
   /* text-align: justify; */
@@ -22,10 +22,8 @@
 .h1 {
   color: var(--pink);
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
-/* .p {
-} */
 
 @media only screen and (min-width: 768px) {
   .container {

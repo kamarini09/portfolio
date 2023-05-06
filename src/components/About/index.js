@@ -8,14 +8,16 @@ export default function About() {
        
         <div >
           <h1 className={styles.h1}>Welcome to my portfolio!</h1>
-          <p className={styles.text}> Hey there! I'm Kama, a multimedia design student from Greece currently
-             living in Copenhagen.I'm super passionate about designing and building
-             websites. I'm studying Multimedia Design  at KEA, currently in the Fronted 
-             Elective. I have already completed a bunch of projects that show off 
-             my skills in HTML, CSS, and JavaScript.In my recent projects, I've used React and Next.js 
-             to create my projects.I'm looking for an internship where I can gain some real-world experience 
-             and learn even more. Feel free to check out my portfolio to see some of my previous projects.
-              Thanks you!
+          <p className={styles.text}> Hi there!
+           My name is Kamarini, and I'm a Greek 
+          student currently studying Multimedia Design at KEA in Copenhagen. During
+           my studies, I've discovered a passion for coding, particularly in the
+            frontend development field. I have been focusing on learning JavaScript 
+            fundamentals this semester, and I'm excited to begin using frameworks 
+            such as React and Next.js. I'm currently searching for an internship where
+             I can gain hands-on experience and continue learning from experienced 
+             professionals. If you're interested, please take a look at my portfolio
+              to see some of the projects I've worked on in the past. Thank you!
           </p>
         </div>
       </div>
