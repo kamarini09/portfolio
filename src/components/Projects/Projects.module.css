@@ -1,32 +1,40 @@
 .container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 10rem;
 }
 
 .card {
+  position: relative;
   flex-basis: calc(33.33% - 20px);
   background-color: var(--pink);
   box-shadow: 0 0 5px var(--pink);
   padding: 20px;
+  height: 400px;
 }
 
 .h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--blue);
   color: var(--dirty-white);
 }
 
 .p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
   color: var(--dirty-white);
 }
 
 .button {
+  position: absolute;
+  position: absolute;
+  bottom: 1rem;
+  left: 20%;
+  transform: translateX(-50%);
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   background-color: var(--dirty-white);
   color: var(--blue);
   text-decoration: none;
