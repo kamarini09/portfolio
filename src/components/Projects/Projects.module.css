@@ -6,31 +6,46 @@
 
 .card {
   flex-basis: calc(33.33% - 20px);
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--pink);
+  box-shadow: 0 0 5px var(--pink);
   padding: 20px;
 }
 
 .h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  color: var(--dirty-white);
 }
 
 .p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: var(--dirty-white);
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #0070f3;
-  color: #fff;
+  background-color: var(--dirty-white);
+  color: var(--blue);
   text-decoration: none;
   border-radius: 5px;
 }
 
 .button:hover {
-  background-color: #0062cc;
+  background-color: var(--blue);
+  color: var(--dirty-white);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
 }

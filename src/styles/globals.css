@@ -23,8 +23,3 @@ img {
 body {
   background-color: var(--dirty-white);
 }
-
-button {
-  background-color: var(--blue);
-  color: var(--pink);
-}
