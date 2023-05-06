@@ -5,26 +5,27 @@
   max-width: 800px;
   justify-content: space-around;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .text {
   flex: 1;
   color: var(--blue);
   text-align: center;
-  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+  /* text-align: justify; */
 }
 
 .h1 {
-  margin-bottom: 20px;
   color: var(--pink);
   text-align: center;
+  font-size: 4.5rem;
 }
-.p {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-}
+/* .p {
+} */
 
 @media only screen and (min-width: 768px) {
   .container {
