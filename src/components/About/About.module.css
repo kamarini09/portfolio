@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   max-width: 800px;
   justify-content: space-around;
@@ -12,28 +12,27 @@
 .text {
   flex: 1;
   color: var(--blue);
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   font-weight: bold;
+  margin-top: 0;
+  margin-left: 20px;
   /* text-align: justify; */
 }
 
 .h1 {
   color: var(--pink);
-  text-align: center;
+  text-align: left;
   font-size: 4rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
-    flex-direction: row;
+    flex-direction: column;
   }
   .h1 {
-    text-align: left;
-  }
-  .p {
-    text-align: left;
+    text-align: center;
   }
   .text {
     margin-top: 0;
