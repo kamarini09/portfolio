@@ -5,7 +5,7 @@ import styles from './About.module.css';
 
 export default function About() {
     return (
-      <div className={styles.container}>
+      <div id='about' className={styles.container}>
         <img src="/me.jpeg" alt="" />
    
        

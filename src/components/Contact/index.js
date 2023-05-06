@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Contact() {
     return (
-        <div className={styles.container}>
+        <div id='contact' className={styles.container}>
           <Link href="https://github.com/kamarini09">
             <button className={styles.button}>GitHub</button>
           </Link>

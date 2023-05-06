@@ -4,6 +4,10 @@
   --pink: #eb4463;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0.5rem;
@@ -16,14 +20,11 @@ img {
   max-width: 300px;
 }
 
-/* body {
+body {
   background-color: var(--dirty-white);
-  color: var(--blue);
 }
-h1 {
-  color: var(--pink);
-}
+
 button {
   background-color: var(--blue);
   color: var(--pink);
-} */
+}

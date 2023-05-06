@@ -4,24 +4,24 @@ import styles from './Nav.module.css';
 function Nav() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.list}>
-        <li className={styles.item}>
-          <Link href="/Projects">
-            <div className={styles.link}>Home</div>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link href="#projects">
-            <div className={styles.link}>Projects</div>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link href="/contact">
-            <div className={styles.link}>Contact</div>
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <ul>
+      <li>
+        <Link href="#about">
+          About
+        </Link>
+      </li>
+      <li>
+        <Link href="#projects">
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          Contact
+        </Link>
+      </li>
+    </ul>
+  </nav>
   );
 }
 
