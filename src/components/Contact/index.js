@@ -10,9 +10,9 @@ export default function Contact() {
           <Link href="https://www.instagram.com/kamarini._/">
             <button className={styles.button}>Instagram</button>
           </Link>
-          <Link href="/path/to/cv.pdf">
+          {/* <Link href="/path/to/cv.pdf">
             <button className={styles.button}>CV</button>
-          </Link>
+          </Link> */}
           <Link href="https://www.linkedin.com/in/kamarini-moragianni/">
             <button className={styles.button}>LinkedIn</button>
           </Link>
