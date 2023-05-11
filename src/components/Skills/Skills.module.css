@@ -1,0 +1,38 @@
+.container {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  background-color: var(--dirty-white);
+}
+
+.h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--pink);
+  border-bottom: 1px solid var(--pink);
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  list-style: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.skill {
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: var(--blue);
+}
+
+@media only screen and (max-width: 768px) {
+  .skillsList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
