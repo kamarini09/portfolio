@@ -12,7 +12,6 @@ export default function Layout (){
         <About></About>
         <Projects></Projects>
          <Skills></Skills>
-        <Contact></Contact>
         <Footer></Footer>
         </>
         

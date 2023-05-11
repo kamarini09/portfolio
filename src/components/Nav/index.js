@@ -1,22 +1,22 @@
 import Link from 'next/link';
 import styles from './Nav.module.css';
 
-function Nav() {
+export default function Nav() {
   return (
     <nav className={styles.nav}>
     <ul>
       <li>
-        <Link href="#about">
+      <Link href="#about">
           About
         </Link>
       </li>
       <li>
-        <Link href="#projects">
+      <Link href="#projects">
           Projects
         </Link>
       </li>
       <li>
-        <Link href="#contact">
+        <Link href="#contact" >
           Contact
         </Link>
       </li>
@@ -25,4 +25,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+
