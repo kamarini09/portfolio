@@ -3,6 +3,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Skills from './Skills'
 
 export default function Layout (){
     return(
@@ -10,7 +11,7 @@ export default function Layout (){
         <Nav></Nav>
         <About></About>
         <Projects></Projects>
-        <Contact></Contact>
+         <Skills></Skills>
         <Footer></Footer>
         </>
         
