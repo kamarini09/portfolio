@@ -13,6 +13,9 @@ export default function Contact() {
           <Link href="https://www.linkedin.com/in/kamarini-moragianni/">
             <button className={styles.button}>LinkedIn</button>
           </Link>
+          <Link href="/CV.pdf" target="_blank">
+             <button className={styles.button} download>CV</button>
+          </Link>
         </div>
       );
 }
