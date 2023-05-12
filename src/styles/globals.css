@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,600&family=Poppins&display=swap");
 :root {
   --dirty-white: #fcfafb;
   --blue: #0332b8;
   --pink: #eb4463;
+  --h-font: "Noto Serif Display", serif;
+  --text-font: "Poppins", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+  font-family: var(--text-font);
 }
 
 * {

@@ -15,7 +15,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className={styles.container}>
+    <div id='skills' className={styles.container}>
       <h2 className={styles.h2}>Skills</h2>
       <ul className={styles.skillsList}>
         {skillsData.map((item) => (

@@ -16,8 +16,8 @@ export default function Nav() {
         </Link>
       </li>
       <li>
-        <Link href="#contact" >
-          Contact
+        <Link href="#skills" >
+          Skills
         </Link>
       </li>
     </ul>

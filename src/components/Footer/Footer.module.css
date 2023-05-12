@@ -6,6 +6,7 @@
   /* height: 100px; */
   color: var(--blue);
   border-top: 1px solid var(--pink);
+  padding-top: 50px;
 }
 
 .footer p {
