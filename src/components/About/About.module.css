@@ -4,9 +4,7 @@
   align-items: center;
   max-width: 800px;
   justify-content: space-around;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin: 5rem auto 5rem auto;
   padding-top: 100px;
 }
 
@@ -30,13 +28,14 @@
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
+    margin: 2rem auto 2rem auto;
   }
   .h1 {
     text-align: center;
   }
   .text {
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 15px;
     text-align: left;
   }
 }
