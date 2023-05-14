@@ -21,8 +21,6 @@
 }
 
 .p {
-  font-size: 20px;
-  line-height: 1.5;
   margin-bottom: 2rem;
   color: var(--dirty-white);
 }
@@ -64,9 +62,5 @@
   .h1 {
     font-size: 1.5rem;
     margin-bottom: 0.8rem;
-  }
-  .p {
-    font-size: 18px;
-    line-height: 1.5;
   }
 }
