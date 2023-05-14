@@ -21,14 +21,22 @@
   color: var(--dirty-white);
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
   }
 
   .button {
-    margin: 5px;
-    padding: 10px 15px;
-    font-size: 14px;
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
